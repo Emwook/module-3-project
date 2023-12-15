@@ -1,3 +1,29 @@
+.body {
+  font-size: 24px;
+  font-family: "Cairo", sans-serif;
+  background: #031926;
+  color: #F2F5EA;
+}
 
+nav {
+  justify-content: center;
+}
+nav .container {
+  font-size: 1.25rem;
+  border: 10px solid #FF9B42;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: none;
+}
+nav .container .navbar {
+  width: 100%;
+}
+nav .container .navbar .brand-name {
+  color: #FF9B42;
+}
+nav .container .navbar a {
+  text-decoration: none;
+  color: #895737;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPQTtFQUNJLGVBQUE7RUFDQSxnQ0FBQTtFQUNBLG1CQVZPO0VBV1AsY0FWTztBQ0lYOztBRFFBO0VBQ0ksdUJBQUE7QUNMSjtBRE1JO0VBQ0ksa0JBQUE7RUFDQSwwQkFBQTtFQUNBLFlBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7QUNKUjtBREtRO0VBQ0ksV0FBQTtBQ0haO0FESVk7RUFDSSxjQXRCSDtBQ29CYjtBRElZO0VBQ0kscUJBQUE7RUFDQSxjQXpCSjtBQ3VCWiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

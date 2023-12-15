@@ -1,0 +1,27 @@
+.body {
+  font-size: 24px;
+  font-family: "Cairo", sans-serif;
+  background: #031926;
+  color: #F2F5EA;
+}
+
+nav {
+  justify-content: center;
+}
+nav .container {
+  font-size: 1.25rem;
+  border: 10px solid #FF9B42;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: none;
+}
+nav .container .navbar {
+  width: 100%;
+}
+nav .container .navbar .brand-name {
+  color: #FF9B42;
+}
+nav .container .navbar a {
+  text-decoration: none;
+  color: #895737;
+}/*# sourceMappingURL=style.css.map */

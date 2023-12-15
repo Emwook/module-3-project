@@ -1,0 +1,33 @@
+$color-one:#031926;
+$color-two:#F2F5EA;
+$color-three:#FF9B42;
+$color-four:#895737;
+$color-five:#5E3023;
+
+
+.body {
+    font-size: 24px;
+    font-family: 'Cairo', sans-serif;
+    background: $color-one;
+    color: $color-two;
+}
+nav{
+    justify-content: center;
+    .container {
+        font-size: 1.25rem;
+        border: 10px solid $color-three;
+        margin: 2rem;
+        padding: 2rem;
+        background-color: none;
+        .navbar {
+            width:100%;
+            .brand-name {
+                color: $color-three;
+            }
+            a {
+                text-decoration: none;
+                color: $color-four;
+            }
+        }
+    }
+}
