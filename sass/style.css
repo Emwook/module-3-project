@@ -1,27 +1,85 @@
+/*Temporary class*/
+.test {
+  border: 1px solid red;
+}
+
 .body {
   font-size: 24px;
   font-family: "Cairo", sans-serif;
   background: #031926;
   color: #F2F5EA;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-  justify-content: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  /*text underline issue*/
 }
 nav .container {
-  font-size: 1.25rem;
-  border: 10px solid #FF9B42;
-  margin: 2rem;
-  padding: 2rem;
+  font-size: 1.5rem;
+  padding: 0.25rem 0;
   background-color: none;
+  text-decoration: none;
 }
 nav .container .navbar {
   width: 100%;
+  height: 100%;
 }
-nav .container .navbar .brand-name {
+nav .container .navbar .nav-logo .brand-name {
   color: #FF9B42;
 }
-nav .container .navbar a {
-  text-decoration: none;
-  color: #895737;
+nav .container .navbar .nav-menu {
+  text-align: center;
+}
+nav .container .navbar .nav-menu a {
+  /* layout issue - element alignment*/
+  color: #F2F5EA;
+  padding: 0.25rem;
+}
+
+.splash {
+  /*Width overflowing*/
+  background-image: url("https://i.postimg.cc/DZ00fSbZ/pexels-vlada-karpovich-4452641.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #F2F5EA;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splash .splash-title {
+  font-size: 7rem;
+  padding: 0;
+  margin: 0;
+}
+.splash .splash-subtitle {
+  font-size: 5rem;
+}
+.splash button {
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.services .container {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.services .container .services-title h2 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.services .container .services-title h5 {
+  font-size: 1.5rem;
+}
+.services .container .services-items i {
+  font-size: 5rem;
 }/*# sourceMappingURL=style.css.map */
