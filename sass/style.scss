@@ -92,8 +92,33 @@ nav{
         }
         .services-items {
             i {
-                font-size: 5rem;
+                font-size: 4rem;
+                padding: 0.75rem;
+                border: 0.25rem solid $color-four;
+                color: $color-four;
+                border-radius: 5rem;
             }
         }
     }
 }
+
+.portfolio {
+    text-align: center;
+    .row {
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 6vh;
+    }
+    .col-4 {
+        max-width:30%;
+        padding: 1rem;
+        margin:0 1vw;
+        border: 1px solid $color-one;
+    }
+    img {
+        padding: 1rem;
+        object-fit: cover;
+        max-width:100%;
+    }
+}
+

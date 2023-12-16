@@ -81,5 +81,30 @@ nav .container .navbar .nav-menu a {
   font-size: 1.5rem;
 }
 .services .container .services-items i {
-  font-size: 5rem;
+  font-size: 4rem;
+  padding: 0.75rem;
+  border: 0.25rem solid #895737;
+  color: #895737;
+  border-radius: 5rem;
+}
+
+.portfolio {
+  text-align: center;
+}
+.portfolio .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6vh;
+}
+.portfolio .col-4 {
+  max-width: 30%;
+  padding: 1rem;
+  margin: 0 1vw;
+  border: 1px solid #031926;
+}
+.portfolio img {
+  padding: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
