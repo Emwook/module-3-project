@@ -3,6 +3,11 @@
   border: 1px solid red;
 }
 
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   font-size: 24px;
   font-family: "Cairo", sans-serif;
@@ -13,7 +18,8 @@
 }
 
 nav {
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   position: absolute;
   width: 100%;
   /*text underline issue*/
@@ -28,16 +34,33 @@ nav .container .navbar {
   width: 100%;
   height: 100%;
 }
+nav .container .navbar .nav-logo {
+  padding: 0.25rem;
+}
 nav .container .navbar .nav-logo .brand-name {
   color: #FF9B42;
+  font-size: 2rem;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #031926;
 }
 nav .container .navbar .nav-menu {
   text-align: center;
 }
-nav .container .navbar .nav-menu a {
-  /* layout issue - element alignment*/
-  color: #F2F5EA;
+nav .container .navbar .nav-menu .row {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+nav .container .navbar .nav-menu .row .col-2 {
+  width: 100%;
+  height: 100%;
   padding: 0.25rem;
+}
+nav .container .navbar .nav-menu .row a {
+  color: #F2F5EA;
+  text-decoration: none;
+  font-size: 1.75rem;
+  text-shadow: 2px 2px 2px #031926;
 }
 
 .splash {
