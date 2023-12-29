@@ -51,7 +51,6 @@ nav{
     width: 100%;
     z-index: 3;
     margin-top: 2vh;
-    /*text underline issue*/    
         .container-fluid {
         font-size: 1.5rem;
         padding: 0.25rem 0;
@@ -75,6 +74,7 @@ nav{
             }
             .nav-menu {
                 text-align: center;
+                margin-top: 0.1rem;
                 .menu-row {
                     display: flex;
                     justify-content: space-around;
@@ -153,6 +153,7 @@ nav{
             margin-bottom: 8vh;
         }
         .services-items {
+            justify-content: center;
             i {
                 font-size: 2rem;
                 margin-bottom: 0.5rem;
@@ -160,6 +161,10 @@ nav{
                 border: 0.25rem solid $color-four;
                 color: $color-four;
                 border-radius: 10rem;
+            }
+            .services-box {
+                margin: 2vh 0;
+                max-width: 80%;
             }
         }
     }
