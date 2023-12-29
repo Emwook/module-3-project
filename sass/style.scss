@@ -4,11 +4,6 @@ $color-three:#FF9B42;
 $color-four:#895737;
 $color-five:#5E3023;
 
-/*Temporary class*/
-.test {
-    border: 1px solid red;
-}
-
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -143,7 +138,7 @@ nav{
         }
     .splash-inner {
         z-index: 3;
-        button { /* radius change */
+        button {
             margin-top: 0.5rem;
             padding: 0.75rem;
             font-weight: 100;
@@ -151,7 +146,7 @@ nav{
             background-color: $color-three;
             color: $color-two;
             border-style: none;
-            &:hover{
+            &:hover {
                 scale: 110%;
                 transition: all 0.2s ease-in-out;
             }
@@ -160,7 +155,7 @@ nav{
 }
 
 .services{
-    .container{
+    .container {
         text-align: center;
         .services-title {
             margin-bottom: 8vh;
@@ -189,10 +184,10 @@ nav{
     padding: 0;
     padding: 5vh 0;
     .row {
-        display:flex;
+        display: flex;
         justify-content: space-around;
     }
-    .portfolio-box{
+    .portfolio-box {
         background: white;
         padding: 0;
         max-width: 300px;
@@ -203,25 +198,25 @@ nav{
         max-height: 300px;
         padding: 0;
         object-fit: cover;
-        width:100%;
+        width: 100%;
     }
 }
 
 footer {
     justify-content: flex-start;
-    .text-box{
+    .text-box {
         text-align: center;
         margin-bottom: 0.25rem;
     }
-    .icon-box{
-        .row{
+    .icon-box {
+        .row {
         justify-content: center;
         align-items: center;
-            i{
+            i {
                 margin: 0 0.2rem;
                 padding: 0 0.25rem;
                 font-size: 1.5rem;
-                &:hover{
+                &:hover {
                     scale: 110%;
                     transition: all 0.2s ease-in-out;
                 }
